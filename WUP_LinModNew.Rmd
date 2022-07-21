@@ -57,6 +57,11 @@ The value above provides specific correlation coefficient on the relationship be
 
 ### Inferential  (Build model.1)
 
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
 #### Predict at target point
 
 
