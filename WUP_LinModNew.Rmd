@@ -45,6 +45,8 @@ basicNN <- ggplot(data,aes(y=SIMS,x=ARM))
 basicNN + geom_point()
 ```
 
+The scatter plot above shows a positive linear relationship between SIMS and ARM. This means that the greater the arm strength of the worker, the better they perform on the simulations that were used to access job performance. 
+
 ### Numerical results
 
 
