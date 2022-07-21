@@ -151,6 +151,9 @@ The model above shows the relationship of SIMS and ARM and GRIP combined. Based 
 
 #### predict model.3 at target point
   
+```{r}
+predict(model.3, Targetpoint, interval =  "prediction")
+```
 
 ## Comparing nested models ANOVA Test
 
