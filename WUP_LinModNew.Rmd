@@ -88,6 +88,13 @@ The scatter plot above now includes the prediction line that was determined prev
 
 ### Now add in scatterplot
 
+```{r}
+basicGRIP <- ggplot(data,aes(y=SIMS,x=GRIP))
+```
+
+```{r}
+basicGRIP + geom_point()
+```
 
 ### Numerical results 
 
