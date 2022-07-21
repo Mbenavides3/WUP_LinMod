@@ -107,7 +107,11 @@ cor(SIMS~GRIP,data=data)
 The value above provides specific correlation coefficient on the relationship between SIMS and GRIP. Although a  value of 0.640 is quite decent in showing the positive linear relationship between SIMS and GRIP, it is lower than the one of the first model. Therefore, it points towards the idea that are strength in predicting a worker's performance in the simulations. 
 
 ### Inferential  (Build model.2)
-  
+
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.2)
+```
 
 #### predict model.2 at target point
 
