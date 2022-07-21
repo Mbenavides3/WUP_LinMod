@@ -82,7 +82,7 @@ This predicted the value we would get from model 1 if the target point for ARM i
 basicNN + geom_point() + geom_lm()
 ```
 
-
+The scatter plot above now includes the prediction line that was determined previously. It further establishes that the relationship creates a normal distribution wherein the 95% of all the point is within two residual values from the line of best fit. 
 
 ## Model 2 SIM~GRIP
 
