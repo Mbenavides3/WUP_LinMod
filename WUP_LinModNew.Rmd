@@ -62,6 +62,8 @@ model.1 <- lm(SIMS~ARM,data=data)
 summary.lm(model.1)
 ```
 
+The model above shows us the linear model of the relationship between SIMS and ARM. The most important information that can be taken from the model are the residual standard error and the adjusted R-square value. The low residual standard error value of 1.226 means that the values do not deviate largely from the predicted value. Moreover, based on the value of the adjusted R-square, we are reducing the error from the mean model by 46.6%.
+
 #### Predict at target point
 
 
