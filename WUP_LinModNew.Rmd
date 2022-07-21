@@ -113,6 +113,8 @@ model.2 <- lm(SIMS~GRIP,data=data)
 summary.lm(model.2)
 ```
 
+Above is the linear model of the relationship between SIMS and GRIP, and it also shows the standard residual error value and the adjusted R-squared. Comparing these two values from those from the first model, we can expect that the standard deviation curve is wider on this model compared to the first one. Also, the adjusted R-squared value on this value means that we are able to reduce the error from the mean model by 40.53% which is lower than that from the first model. Lastly, more of the error is explained by the first model than the second model, based on the residual standard error value.
+
 #### predict model.2 at target point
 
 #### now add the model fit to our plot for model.2
