@@ -49,6 +49,9 @@ The scatter plot above shows a positive linear relationship between SIMS and ARM
 
 ### Numerical results
 
+```{r}
+cor(SIMS~ARM,data=data)
+```
 
 ### Inferential  (Build model.1)
 
