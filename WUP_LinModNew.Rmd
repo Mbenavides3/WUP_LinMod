@@ -66,6 +66,13 @@ The model above shows us the linear model of the relationship between SIMS and A
 
 #### Predict at target point
 
+```{r}
+Targetpoint <- data.frame (ARM = 88, GRIP = 94 )
+```
+
+```{r}
+predict(model.1, Targetpoint, interval =  "prediction")
+```
 
 #### scatterplot with model fit
   
